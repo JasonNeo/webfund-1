@@ -10,6 +10,10 @@
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+
+<!-- custom -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/my_styles.css">
 </head>
 <body>
 
@@ -38,7 +42,7 @@
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
+									<div class="login_button"><a href="#">Account Login</a></div>
 								</div>
 							</div>
 						</div>
@@ -55,23 +59,22 @@
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
 								<a href="#">
-									<div class="logo_text">Unic<span>at</span></div>
+									<!-- <div class="logo_text">Unic<span>at</span></div> -->
+									<img src="./my_images/logo_240.png" alt="">
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li><a href="index.html">Home</a></li>
+									<!-- <li class="active"><a href="#">Home</a></li> -->
 									<li><a href="about.html">About</a></li>
-									<li><a href="courses.html">Courses</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Page</a></li>
+									<li><a href="courses.html">Catalogue</a></li>
+									<li><a href="courses.html">Facilities</a></li>
+									<li><a href="#">FAQ</a></li>
 									<li><a href="contact.html">Contact</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
 								<!-- Hamburger -->
-
-								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -158,7 +161,11 @@
 			<div class="map">
 				<div id="google_map" class="google_map">
 					<div class="map_container">
-						<div id="map"></div>
+						<!-- <div id="map"></div> -->
+						<div class="shadow-overlay"></div>
+						<div class="text-center">
+							<h1 class="text-light">Contact Us</h1>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -174,7 +181,7 @@
 					<!-- Contact Form -->
 					<div class="col-lg-6">
 						<div class="contact_form">
-							<div class="contact_info_title">Contact Form</div>
+							<div class="contact_info_title">Write To Us</div>
 							<form action="#" class="comment_form">
 								<div>
 									<div class="form_title">Name</div>
@@ -198,56 +205,48 @@
 					<!-- Contact Info -->
 					<div class="col-lg-6">
 						<div class="contact_info">
-							<div class="contact_info_title">Contact Info</div>
-							<div class="contact_info_text">
-								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a distribution of letters.</p>
-							</div>
+							<!-- <div class="contact_info_title">Contact Info</div> -->
 							<div class="contact_info_location">
-								<div class="contact_info_location_title">New York Office</div>
 								<ul class="location_list">
-									<li>T8/480 Collins St, Melbourne VIC 3000, New York</li>
-									<li>1-234-567-89011</li>
-									<li>info.deercreative@gmail.com</li>
+									<li class="row">
+										<div class="col-md-2">
+											<ul>
+												<li>Address:</li>
+												<li>Tel:</li>
+												<li>Fax:</li>
+												<li>Email:</li>
+											</ul>
+										</div>
+										<div class="col-md-10">
+											<ul>
+												<li>
+													<p>
+														No. 2, Jalan Universiti<br>
+														Bandar Sunway<br>
+														47500 Selangor Darul Ehsan<br>
+														Malaysia
+													</p>
+												</li>
+												<li>+6 03 5638 7176 / 7491 8622</li>
+												<li>+ 6 03 5638 7177</li>
+												<li><a href="mailto:info@sunway.edu.my ">info@sunway.edu.my </a></li>
+											</ul>
+										</div>
+									</li>
+									<li><strong>Address:</strong>
+										<p>
+											No. 2, Jalan Universiti<br>
+											Bandar Sunway<br>
+											47500 Selangor Darul Ehsan<br>
+											Malaysia
+										</p>
+									</li>
+									<li><strong>Tel:</strong> +6 03 5638 7176 / 7491 8622</li>
+									<li><strong>Fax:</strong> + 6 03 5638 7177</li>
+									<li><strong>Email:</strong> <a href="mailto:info@sunway.edu.my ">info@sunway.edu.my </a></li>
 								</ul>
 							</div>
-							<div class="contact_info_location">
-								<div class="contact_info_location_title">Australia Office</div>
-								<ul class="location_list">
-									<li>Forrest Ray, 191-103 Integer Rd, Corona Australia</li>
-									<li>1-234-567-89011</li>
-									<li>info.deercreative@gmail.com</li>
-								</ul>
-							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Newsletter -->
-
-	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start">
-
-						<!-- Newsletter Content -->
-						<div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div>
-
-						<!-- Newsletter Form -->
-						<div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
 					</div>
 				</div>
 			</div>
